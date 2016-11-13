@@ -1,0 +1,20 @@
+name: LexchangeTest
+type: theme
+description: 'Lexchange is a drupal website met een LETS systeem'
+core: 8.x
+libraries:
+  - lexchange/global-styling  
+  - lexchange/global-js
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize.css
+regions:
+  header: Header
+  content: Content 
+  footer: Footer
+  primary_menu: 'Primary menu'
+  gebruikersmenu: 'Gebruikersmenu'
+  stylesheets: 'css/style.css'
+  
+regions_hidden:
+  - sidebar_first
